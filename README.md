@@ -41,23 +41,6 @@ To run this program you will require a bunch of API keys. Register your API key 
 - [Wolframalpha](https://www.wolframalpha.com/)
 - [Google Calendar API](https://developers.google.com/calendar/auth)
   
-## Installation
-
-- First clone the repo
-- Make a config.py file and include the following in it:
-    ```weather_api_key = "<your_api_key>"
-    email = "<your_email>"
-    email_password = "<your_email_password>"
-    wolframalpha_id = "<your_wolframalpha_id>"
-- Copy the config.py file in Paradox>config folder
-- Make a new python environment
-    If you are using anaconda just type ```conda create -n Paradox python==3.8.5 ``` in anaconda prompt
-- To activate the environment ``` conda activate Paradox ```
-- Navigate to the directory of your project
-- Install all the requirements by just hitting ``` pip install -r requirements.txt ```
-- Install PyAudio from wheel file by following instructions given [here](https://stackoverflow.com/a/55630212)
-- Run the program by ``` python main.py ```
-- Enjoy !!!!
 
 ## Code Structure
 
@@ -68,13 +51,8 @@ To run this program you will require a bunch of API keys. Register your API key 
     │   ├── features        # All functionalities of Paradox 
     │   └── utils           # GUI images
     ├── __init__.py         # Definition of feature's functions
-    ├── gui.ui              # GUI file (in .ui format)
     ├── main.py             # main driver program of Paradox
     ├── requirements.txt    # all dependencies of the program
 
-- The code structure is pretty simple. The code is completely modularized and is highly customizable
-- To add a new feature:
-  -  Make a new file in features folder, write the feature's function you want to include
-  - Add the function's definition to __init__.py
-  - Add the voice commands through which you want to invoke the function
+
 
