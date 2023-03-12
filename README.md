@@ -1,6 +1,6 @@
-## Paradox
+## Paradox (A voice assistant for Desktop created using Python)
 
-#### This was an attempt to make a voice assistant for Desktop. Its not as intelligent as Siri, Google Assistant or Cortana, but it can do a lot of cool things.
+#### Its not as intelligent as Siri, Google Assistant or Cortana, but it can do a lot of cool things.
 
 
 ### Features
